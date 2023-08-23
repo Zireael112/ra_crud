@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  width: 320px;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.6px solid gray;
+  border-radius: 8px;
+  overflow-wrap: normal;
+}
+
+.card-content {
+  flex: 1 1 auto;
+}
+
+.card-created {
+  font-size: small;
+}
+
+.card-close {
+  position: absolute;
+  top: -11.2px;
+  right: -11.2px;
+  height: 25.6px;
+  width: 25.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.6px solid gray;
+  border-radius: 11.2px;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.25rem;
+  color: red;
+}

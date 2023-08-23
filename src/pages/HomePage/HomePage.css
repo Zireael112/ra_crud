@@ -1,0 +1,28 @@
+.new-post-btn {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 1px 1px 1px;
+}
+
+.new-post-btn a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.new-post-btn:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.ldng {
+  border-bottom: 1px solid black;
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
